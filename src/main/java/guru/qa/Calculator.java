@@ -6,5 +6,6 @@ public class Calculator {
         System.out.println("Nata");
         System.out.println("2 line with conflict!");
         System.out.println("calculator stopped!");
+        System.out.println("4 line");
     }
 }
