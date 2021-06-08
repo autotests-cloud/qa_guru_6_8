@@ -1,0 +1,14 @@
+target/
+build/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.log
+
+### Gradle ###
+.gradle
+!gradle-wrapper.jar
+!gradle-wrapper.properties
