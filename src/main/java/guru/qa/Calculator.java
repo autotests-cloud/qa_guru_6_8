@@ -7,5 +7,6 @@ public class Calculator {
         System.out.println("2 line with conflict!");
         System.out.println("calculator stopped!");
         System.out.println("4 line");
+        System.out.println("5 line");
     }
 }
