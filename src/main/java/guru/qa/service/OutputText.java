@@ -2,7 +2,7 @@ package guru.qa.service;
 
 public enum OutputText {
     NUM_TEXT("¬ведите два числа: "),
-    OPER_TEXT("¬ведите оператор (+, *): "),
+    OPER_TEXT("¬ведите оператор (+, *, /, -, ^)"),
     RESULT_TEXT("–езультат: ");
 
     private final String text;
