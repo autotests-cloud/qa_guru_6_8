@@ -1,10 +1,13 @@
 package guru.qa;
 
+import guru.qa.service.Calculator;
+import guru.qa.service.impl.ConsoleReader;
+import guru.qa.service.impl.ConsoleWriter;
+
 public class Application {
 
     public static void main(String[] args) {
-        System.out.println("This is the main method");
-        new Calculator().start();
-         System.out.println("Just for rebase demo");
+        String result = new Calculator(new ConsoleReader(), new ConsoleWriter()).start();
+        System.out.println(result);
     }
 }
